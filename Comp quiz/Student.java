@@ -47,8 +47,9 @@ public class Student {
         System.out.println("GPA: " + gpa);
     }
 
-    public void toString(){
-                System.out.println("Student Name: " + studName);
+    @Override
+    public String toString(){
+                return "Student Name: " + studName;
 
     }
 
