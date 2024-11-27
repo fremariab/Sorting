@@ -47,6 +47,11 @@ public class Student {
         System.out.println("GPA: " + gpa);
     }
 
+    public void toString(){
+                System.out.println("Student Name: " + studName);
+
+    }
+
     public static void main(String[] args) {
         
         ArrayList<Student> studentList = new ArrayList<>();
@@ -56,6 +61,16 @@ public class Student {
         studentList.add(new Student("Bob", 22, 3.5));
         studentList.add(new Student("Charlie", 21, 3.9));
 
+        System.out.println(studentList);
 
     }
 }
+
+//To-Do
+//--------------------------
+// 1. start with sorting
+// 2. say that sorting can take more than 1 parameter
+// 3. go to comparable in a class
+// 4. go to comparator as aclass
+// 5. go to comparator as an la,,bda
+// 6. go to comparator as a key extractor
