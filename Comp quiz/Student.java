@@ -49,7 +49,7 @@ public class Student {
 
     @Override
     public String toString(){
-                return "Student Name: " + studName;
+                return studName;
 
     }
 
